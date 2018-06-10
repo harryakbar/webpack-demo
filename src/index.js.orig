@@ -1,17 +1,23 @@
 import _ from 'lodash';
+<<<<<<< HEAD
 import MyImage from './image.jpg';
+=======
 import './style.css';
+>>>>>>> feature/load-css
 
 function component() {
     var element = document.createElement('div');
   
     // Lodash, now imported by this script
     element.innerHTML = _.join(['Hello', 'webpack'], ' ');
+<<<<<<< HEAD
     var myIcon = new Image();
     myIcon.src = MyImage;
 
     element.appendChild(myIcon);
+=======
     element.classList.add('hello');
+>>>>>>> feature/load-css
 
     return element;
   }
